@@ -1,3 +1,5 @@
+import { publicUrl } from '../constants'
+
 function CompanyLogo({ name, logo, className = '' }) {
   const initial = name
     .replace(/\s*\([^)]*\)\s*/g, '')
@@ -12,7 +14,7 @@ function CompanyLogo({ name, logo, className = '' }) {
   if (logo) {
     return (
       <img
-        src={logo}
+        src={publicUrl(logo)}
         alt=""
         className={`company-logo company-logo--img ${className}`}
       />

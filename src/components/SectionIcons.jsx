@@ -58,3 +58,21 @@ export function IconContact() {
     </svg>
   )
 }
+
+export function IconFormacao() {
+  return (
+    <svg {...iconProps} aria-hidden>
+      <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+      <path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5" />
+    </svg>
+  )
+}
+
+export function IconIdiomas() {
+  return (
+    <svg {...iconProps} aria-hidden>
+      <circle cx="12" cy="12" r="10" />
+      <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+    </svg>
+  )
+}

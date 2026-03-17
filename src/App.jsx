@@ -3,17 +3,19 @@ import { useLocale } from './contexts/LocaleContext'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import AccordionSection from './components/AccordionSection'
-import { IconProfile, IconSkills, IconTechnologies, IconCareer, IconCompanies, IconContact } from './components/SectionIcons'
+import { IconProfile, IconSkills, IconTechnologies, IconCareer, IconFormacao, IconIdiomas, IconCompanies, IconContact } from './components/SectionIcons'
 import Profile from './components/Profile'
 import Skills from './components/Skills'
 import Technologies from './components/Technologies'
 import Career from './components/Career'
+import Formacao from './components/Formacao'
+import Idiomas from './components/Idiomas'
 import Companies from './components/Companies'
 import Contact from './components/Contact'
 import ContactBar from './components/ContactBar'
 import Noise from './components/Noise'
 
-const SECTION_IDS = ['perfil', 'habilidades', 'tecnologias', 'trajetoria', 'empresas', 'contato']
+const SECTION_IDS = ['perfil', 'habilidades', 'tecnologias', 'trajetoria', 'formacao', 'idiomas', 'empresas', 'contato']
 
 function App() {
   const { t } = useLocale()
@@ -80,6 +82,28 @@ function App() {
           onToggle={() => openSection('trajetoria')}
         >
           <Career />
+        </AccordionSection>
+        <AccordionSection
+          id="formacao"
+          sectionClass="formacao"
+          title={t('sections.formacao')}
+          componentTag="Formacao"
+          icon={<IconFormacao />}
+          isOpen={activeSection === 'formacao'}
+          onToggle={() => openSection('formacao')}
+        >
+          <Formacao />
+        </AccordionSection>
+        <AccordionSection
+          id="idiomas"
+          sectionClass="idiomas"
+          title={t('sections.idiomas')}
+          componentTag="Idiomas"
+          icon={<IconIdiomas />}
+          isOpen={activeSection === 'idiomas'}
+          onToggle={() => openSection('idiomas')}
+        >
+          <Idiomas />
         </AccordionSection>
         <AccordionSection
           id="empresas"

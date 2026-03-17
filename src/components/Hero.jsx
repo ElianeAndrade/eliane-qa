@@ -5,9 +5,6 @@ function Hero() {
 
   return (
     <section className="hero">
-      <p className="hero-label">
-        <span className="mono">//</span> {t('hero.label')}
-      </p>
       <h1 className="hero-title">
         {t('hero.title')}
         <br />

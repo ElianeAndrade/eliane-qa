@@ -44,7 +44,10 @@ function TreeNode({ project, index }) {
       <div className="node-content">
         <header className="node-header">
           <span className="node-period mono">{project.year}</span>
-          <h3 className="node-title">{project.title}</h3>
+          <h3 className="node-title">{project.company}</h3>
+          {project.clients && (
+            <p className="node-clients">{project.clients}</p>
+          )}
           <p className="node-role">{project.role}</p>
         </header>
         <p className="node-desc">{project.description}</p>

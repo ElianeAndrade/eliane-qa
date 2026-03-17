@@ -8,6 +8,8 @@ const navItems = [
   { href: '#habilidades', id: 'habilidades', labelKey: 'nav.habilidades' },
   { href: '#tecnologias', id: 'tecnologias', labelKey: 'nav.tecnologias' },
   { href: '#trajetoria', id: 'trajetoria', labelKey: 'nav.trajetoria' },
+  { href: '#formacao', id: 'formacao', labelKey: 'nav.formacao' },
+  { href: '#idiomas', id: 'idiomas', labelKey: 'nav.idiomas' },
   { href: '#empresas', id: 'empresas', labelKey: 'nav.empresas' },
   { href: '#contato', id: 'contato', labelKey: 'nav.contato' },
 ]
