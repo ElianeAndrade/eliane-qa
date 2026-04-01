@@ -31,8 +31,7 @@ function Idiomas() {
   return (
     <div className="idiomas-list">
       <LanguageRow nameKey="idiomas.portuguese" stars={5} />
-      <LanguageRow nameKey="idiomas.english" stars={4} levelKey="idiomas.levelC1" />
-      <LanguageRow nameKey="idiomas.spanish" stars={3} />
+      <LanguageRow nameKey="idiomas.english" stars={3} levelKey="idiomas.levelTechnical" />
     </div>
   )
 }

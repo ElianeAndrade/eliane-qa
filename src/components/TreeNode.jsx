@@ -44,7 +44,16 @@ function TreeNode({ project, index }) {
       <div className="node-content">
         <header className="node-header">
           <span className="node-period mono">{project.year}</span>
-          <h3 className="node-title">{project.company}</h3>
+          <div className="node-company">
+            {project.logo && (
+              <img
+                src={`${import.meta.env.BASE_URL}${project.logo}`}
+                alt={project.company}
+                className="node-logo"
+              />
+            )}
+            <h3 className="node-title">{project.company}</h3>
+          </div>
           {project.clients && (
             <p className="node-clients">{project.clients}</p>
           )}

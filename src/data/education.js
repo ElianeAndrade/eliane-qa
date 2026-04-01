@@ -1,16 +1,16 @@
 export const education = [
-  {
-    id: '1',
-    institution: 'Pro Minas',
-    course: 'Inteligência Artificial',
-    period: '2025 – Em andamento',
-    type: 'post',
-  },
-  {
-    id: '2',
-    institution: 'Universidade Estadual do Maranhão',
-    course: 'Engenharia da Computação',
-    period: '2013 – 2020',
-    type: 'graduation',
-  },
+{
+  id: '1',
+  institution: 'Centro Universitário de Maringá',
+  course: 'Análise e Desenvolvimento de Sistemas',
+  period: '2019',
+  type: 'graduation',
+},
+{
+  id: '2',
+  institution: 'Centro Universitário de Maringá',
+  course: 'Letras (Português/Inglês)',
+  period: '2011',
+  type: 'graduation',
+},
 ]

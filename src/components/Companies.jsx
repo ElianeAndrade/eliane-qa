@@ -25,14 +25,6 @@ function Companies() {
           ))}
         </div>
       </div>
-      <div className="empresas-module empresas-module--mobile">
-        <p className="empresas-module-desc">{t('empresas.appsDesc')}</p>
-        <div className="empresas-grid empresas-grid--apps">
-          {apps.map((app) => (
-            <CompanyCard key={app.id} item={app} />
-          ))}
-        </div>
-      </div>
     </div>
   )
 }

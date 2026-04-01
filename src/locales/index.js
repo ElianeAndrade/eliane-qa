@@ -5,24 +5,30 @@ export const locales = {
       habilidades: 'Habilidades',
       tecnologias: 'Tecnologias',
       trajetoria: 'Trajetória',
+      projetos: 'Projetos',
       formacao: 'Formação',
+      certificacoes: 'Certificações',
+      cursos: 'Cursos',
       idiomas: 'Idiomas',
-      empresas: 'Empresas',
+      //empresas: 'Empresas',
       contato: 'Contato',
     },
     hero: {
-      title: 'Trajetória',
-      titleEm: 'projeto a projeto',
-      desc: 'Uma visão em árvore da minha jornada — cada nó é um projeto, cada ramo uma evolução.',
+      title: 'Transformando',
+      titleEm: 'Testes em estratégia',
+      desc: 'QA focada em testes manuais, testes automatizados, APIs e confiabilidade de sistemas.',
     },
     sections: {
       perfil: 'Perfil',
       habilidades: 'Habilidades',
       tecnologias: 'Tecnologias',
       trajetoria: 'Trajetória profissional',
+      projetos: 'Projetos',
       formacao: 'Formação',
+      certificacoes: 'Certificações',
+      cursos: 'Cursos',
       idiomas: 'Idiomas',
-      empresas: 'Empresas',
+      //empresas: 'Empresas',
       contato: 'Contato',
     },
     formacao: {
@@ -33,11 +39,11 @@ export const locales = {
       portuguese: 'Português',
       english: 'Inglês',
       spanish: 'Espanhol',
-      levelC1: 'C1 (Quadro Europeu)',
+      levelTechnical: 'Leitura técnica',
     },
     perfil: {
-      p1: 'Programador full stack com especialização em frontend, backend e mobile, acumulando uma década de experiência na área. Nos últimos cinco anos, concentrei meus esforços no desenvolvimento fullstack (web e backend), onde obtive profundo conhecimento e experiência prática. Possuo habilidades versáteis em diversas linguagens de programação e frameworks, adaptando-me facilmente às demandas do projeto e às necessidades da equipe.',
-      p2: 'Além das competências técnicas, atuo também com habilidades gerenciais voltadas ao papel de Tech Lead, como definição e priorização de backlog, alinhamento entre áreas técnicas e de negócio, gestão de stakeholders, acompanhamento de métricas e resultados, e garantia de que o produto entregue atenda tanto aos requisitos técnicos quanto aos objetivos estratégicos.',
+        p1: 'QA Automation Engineer com experiência em testes manuais e automatizados em aplicações web, APIs e chatbots. Atuo com testes funcionais e não funcionais, regressivos e automação de testes utilizando Playwright, Cypress e Robot Framework.',
+        p2: 'Possuo experiência em testes de API, validação de integrações, análise de protótipos no Figma, documentações claras e objetivas de bug e validação em banco de dados. Também atuo com testes de performance utilizando k6, execução de pipelines em Azure DevOps e monitoria de fluxos para garantir a estabilidade e confiabilidade das aplicações. Trabalho em ambientes ágeis, colaborando com times de desenvolvimento para reduzir falhas em produção e evoluir a qualidade do software.',
     },
     tecnologias: {
       desc: 'Nível de domínio (0–10) e tempo de experiência com cada tecnologia.',
@@ -46,22 +52,24 @@ export const locales = {
     },
     empresas: {
       title: 'Empresas',
-      mobile: 'Mobile',
-      appsDesc: 'Apps em que atuei',
     },
     contact: {
       email: 'E-mail',
       whatsapp: 'WhatsApp',
       linkedin: 'LinkedIn',
-      whatsappMessage: 'Olá! Vi seu portfólio e fiquei interessado(a). Gostaria de conversar.',
+      whatsappMessage: 'Olá! Vi seu portfólio e fiquei interessado(a). Vamos conversar?',
     },
     lang: {
       ptBR: 'PT-BR',
-      en: 'EN',
-      es: 'ES',
       ariaLabel: 'Escolher idioma',
     },
   },
+  
+  
+  
+  
+  
+  //desconsiderando outros idiomas por enquanto, se precisar basta adiconar os dados e adicionar na função: export const localeKeys = ['ptBR', es, ...]
   en: {
     nav: {
       perfil: 'Profile',
@@ -183,12 +191,10 @@ export const locales = {
     },
     lang: {
       ptBR: 'PT-BR',
-      en: 'EN',
-      es: 'ES',
       ariaLabel: 'Elegir idioma',
     },
   },
 }
-
+ 
 export const defaultLocale = 'ptBR'
-export const localeKeys = ['ptBR', 'en', 'es']
+export const localeKeys = ['ptBR']

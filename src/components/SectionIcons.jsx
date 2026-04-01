@@ -76,3 +76,31 @@ export function IconIdiomas() {
     </svg>
   )
 }
+
+export function IconCertifications() {
+  return (
+    <svg {...iconProps} aria-hidden>
+      <path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z" />
+    </svg>
+  )
+}
+
+export function IconCourses() {
+  return (
+    <svg {...iconProps} aria-hidden>
+      <path d="M4 4h16v16H4z" />
+      <path d="M8 8h8M8 12h8M8 16h5" />
+    </svg>
+  )
+}
+
+export function IconProjects() {
+  return (
+    <svg {...iconProps} aria-hidden>
+      <path d="M3 7h18M3 12h18M3 17h18" />
+      <circle cx="6" cy="7" r="1" />
+      <circle cx="6" cy="12" r="1" />
+      <circle cx="6" cy="17" r="1" />
+    </svg>
+  )
+}

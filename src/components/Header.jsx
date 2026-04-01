@@ -8,9 +8,12 @@ const navItems = [
   { href: '#habilidades', id: 'habilidades', labelKey: 'nav.habilidades' },
   { href: '#tecnologias', id: 'tecnologias', labelKey: 'nav.tecnologias' },
   { href: '#trajetoria', id: 'trajetoria', labelKey: 'nav.trajetoria' },
+  { href: '#projetos', id: 'projetos', labelKey: 'nav.projetos' },
   { href: '#formacao', id: 'formacao', labelKey: 'nav.formacao' },
+  { href: '#certificacoes', id: 'certificacoes', labelKey: 'nav.certificacoes' },
+  { href: '#cursos', id: 'cursos', labelKey: 'nav.cursos' },
   { href: '#idiomas', id: 'idiomas', labelKey: 'nav.idiomas' },
-  { href: '#empresas', id: 'empresas', labelKey: 'nav.empresas' },
+  //{ href: '#empresas', id: 'empresas', labelKey: 'nav.empresas' },
   { href: '#contato', id: 'contato', labelKey: 'nav.contato' },
 ]
 
@@ -28,7 +31,7 @@ function Header({ onNavigate }) {
     <header className={`header ${scrolled ? 'header--scrolled' : ''}`}>
       <nav className="nav">
         <a href={GITHUB_REPO_URL} target="_blank" rel="noopener noreferrer" className="logo">
-          <span className="logo-bracket">[</span>portfólio<span className="logo-bracket">]</span>
+          <span className="logo-bracket">[</span>eliane.qa<span className="logo-bracket">]</span>
         </a>
         <div className="nav-links">
           {navItems.map(({ href, id, labelKey }) => (

@@ -484,6 +484,133 @@ body {
   opacity: 0.9;
 }
 
+
+.certificacao {
+  padding: 1rem 2rem 1rem;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.certificacao-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.certificacao-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.certificacao-item:last-child {
+  border-bottom: none;
+}
+
+.certificacao-course {
+  font-size: 1.1rem;
+  font-weight: 600; /* 🔥 título em negrito */
+  color: var(--text);
+  margin: 0 0 0.25rem;
+}
+
+.certificacao-institution {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin: 0 0 0.35rem;
+}
+
+.certificacao-period {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  opacity: 0.9;
+}
+
+
+.cursos {
+  padding: 1rem 2rem 1rem;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.cursos-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.cursos-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.cursos-item:last-child {
+  border-bottom: none;
+}
+
+.cursos-course {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0 0 0.25rem;
+}
+
+.cursos-institution {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin: 0 0 0.35rem;
+}
+
+.cursos-period {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  opacity: 0.9;
+}
+
+
+.projetos {
+  padding: 1rem 2rem 1rem;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.project-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.project-item:last-child {
+  border-bottom: none;
+}
+
+.project-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0 0 0.25rem;
+}
+
+.project-desc {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin: 0 0 0.5rem;
+}
+
+.project-link {
+  font-size: 0.9rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
 .idiomas {
   padding: 1rem 2rem 1rem;
   max-width: 720px;
@@ -1133,4 +1260,19 @@ main {
   .node-content {
     padding: 1.25rem 1.35rem;
   }
+}
+
+.node-company {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.node-logo {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: #fff;
+  padding: 2px;
 }

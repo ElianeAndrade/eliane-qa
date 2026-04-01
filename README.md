@@ -1,6 +1,8 @@
 # Portfólio
 
-Portfólio em React (Vite) com trajetória em formato de árvore — projeto a projeto.
+Portfólio desenvolvido em React + Vite, com foco em apresentar minha trajetória como QA Automation Engineer de forma visual e interativa.
+
+A aplicação utiliza um formato em árvore para representar minha evolução profissional, destacando experiências com testes manuais, automação, APIs, desenvolvimento e qualidade de software.
 
 ## Como rodar
 
@@ -10,6 +12,7 @@ npm run dev
 ```
 
 Abre em [http://localhost:5173](http://localhost:5173).
+
 
 ## Build para produção
 

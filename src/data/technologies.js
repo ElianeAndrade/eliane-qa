@@ -1,25 +1,30 @@
 import { DEVICON_CDN } from '../constants'
 
 const techList = [
-  { id: 'dotnet', name: '.NET', score: 8, years: 5, icon: `${DEVICON_CDN}/dotnetcore/dotnetcore-original.svg` },
-  { id: 'angular', name: 'Angular', score: 8, years: 5, icon: `${DEVICON_CDN}/angularjs/angularjs-original.svg` },
-  { id: 'aws', name: 'AWS', score: 7, years: 4, icon: `${DEVICON_CDN}/amazonwebservices/amazonwebservices-original-wordmark.svg` },
-  { id: 'azure', name: 'Azure', score: 6, years: 3, icon: `${DEVICON_CDN}/azure/azure-original.svg` },
-  { id: 'csharp', name: 'C#', score: 7, years: 5, icon: `${DEVICON_CDN}/csharp/csharp-original.svg` },
-  { id: 'cpp', name: 'C++', score: 4, years: 3, icon: `${DEVICON_CDN}/cplusplus/cplusplus-original.svg` },
-  { id: 'firebase', name: 'Firebase', score: 8, years: 4, icon: `${DEVICON_CDN}/firebase/firebase-plain.svg` },
-  { id: 'git', name: 'Git', score: 9, years: 10, icon: `${DEVICON_CDN}/git/git-original.svg` },
-  { id: 'graphql', name: 'GraphQL', score: 6, years: 4, icon: `${DEVICON_CDN}/graphql/graphql-plain.svg` },
-  { id: 'java', name: 'Java', score: 8, years: 8, icon: `${DEVICON_CDN}/java/java-original.svg` },
-  { id: 'javascript', name: 'JavaScript', score: 9, years: 10, icon: `${DEVICON_CDN}/javascript/javascript-original.svg` },
-  { id: 'kotlin', name: 'Kotlin', score: 7, years: 3, icon: `${DEVICON_CDN}/kotlin/kotlin-original.svg` },
-  { id: 'mongodb', name: 'MongoDB', score: 8, years: 5, icon: `${DEVICON_CDN}/mongodb/mongodb-original.svg` },
-  { id: 'mysql', name: 'MySQL', score: 8, years: 8, icon: `${DEVICON_CDN}/mysql/mysql-original.svg` },
-  { id: 'nodejs', name: 'Node.js', score: 9, years: 6, icon: `${DEVICON_CDN}/nodejs/nodejs-original.svg` },
-  { id: 'oracle', name: 'Oracle', score: 7, years: 4, icon: `${DEVICON_CDN}/oracle/oracle-original.svg` },
-  { id: 'react', name: 'React', score: 9, years: 6, icon: `${DEVICON_CDN}/react/react-original.svg` },
-  { id: 'react-native', name: 'React Native', score: 9, years: 8, icon: `${DEVICON_CDN}/react/react-original.svg` },
-  { id: 'typescript', name: 'TypeScript', score: 9, years: 5, icon: `${DEVICON_CDN}/typescript/typescript-original.svg` },
+  { id: 'playwright', name: 'Playwright', score: 9, years: 4, icon: `${DEVICON_CDN}/playwright/playwright-original.svg` },
+  { id: 'cypress', name: 'Cypress', score: 9, years: 4, icon: `${DEVICON_CDN}/cypressio/cypressio-original.svg` },
+  { id: 'robot', name: 'Robot Framework', score: 8, years: 3, icon:'logos/robotFramework.png', },
+
+  { id: 'postman', name: 'Postman', score: 9, years: 5, icon: `${DEVICON_CDN}/postman/postman-original.svg` },
+  { id: 'swagger', name: 'Swagger', score: 9, years: 5, icon: `${DEVICON_CDN}/swagger/swagger-original.svg` },
+
+  { id: 'javascript', name: 'JavaScript', score: 7, years: 3, icon: `${DEVICON_CDN}/javascript/javascript-original.svg` },
+  { id: 'csharp', name: 'C#', score: 6, years: 3, icon: `${DEVICON_CDN}/csharp/csharp-original.svg` },
+  { id: 'dotnet', name: '.NET', score: 6, years: 3, icon: `${DEVICON_CDN}/dotnetcore/dotnetcore-original.svg` },
+
+  { id: 'html', name: 'HTML', score: 8, years: 4, icon: `${DEVICON_CDN}/html5/html5-original.svg` },
+  { id: 'css', name: 'CSS', score: 7, years: 4, icon: `${DEVICON_CDN}/css3/css3-original.svg` },
+
+  { id: 'sql', name: 'SQL', score: 8, years: 4, icon: `${DEVICON_CDN}/mysql/mysql-original.svg` },
+
+  { id: 'azure', name: 'Azure DevOps', score: 8, years: 5, icon: `${DEVICON_CDN}/azure/azure-original.svg` },
+  { id: 'git', name: 'Git', score: 7, years: 5, icon: `${DEVICON_CDN}/git/git-original.svg` },
+  { id: 'jira', name: 'Jira', score: 6, years: 4, icon: `${DEVICON_CDN}/jira/jira-original.svg` },
+
+  { id: 'figma', name: 'Figma', score: 7, years: 4, icon: `${DEVICON_CDN}/figma/figma-original.svg` },
+  { id: 'notion', name: 'Notion', score: 7, years: 4, icon: `${DEVICON_CDN}/notion/notion-original.svg` },
+
+  { id: 'k6', name: 'K6', score: 7, years: 3, icon: `${DEVICON_CDN}/k6/k6-original.svg` },
 ]
 
 export const technologies = techList

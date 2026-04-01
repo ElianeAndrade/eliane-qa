@@ -3,7 +3,7 @@ import { useLocale } from './contexts/LocaleContext'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import AccordionSection from './components/AccordionSection'
-import { IconProfile, IconSkills, IconTechnologies, IconCareer, IconFormacao, IconIdiomas, IconCompanies, IconContact } from './components/SectionIcons'
+import { IconProfile, IconSkills, IconTechnologies, IconCareer, IconFormacao, IconCertifications, IconCourses, IconProjects, IconIdiomas, IconCompanies, IconContact } from './components/SectionIcons'
 import Profile from './components/Profile'
 import Skills from './components/Skills'
 import Technologies from './components/Technologies'
@@ -14,8 +14,11 @@ import Companies from './components/Companies'
 import Contact from './components/Contact'
 import ContactBar from './components/ContactBar'
 import Noise from './components/Noise'
+import Certificacoes from './components/Certifications'
+import Cursos from './components/Courses'
+import Projects from './components/ProjectsGit'
 
-const SECTION_IDS = ['perfil', 'habilidades', 'tecnologias', 'trajetoria', 'formacao', 'idiomas', 'empresas', 'contato']
+const SECTION_IDS = ['perfil', 'habilidades', 'tecnologias', 'trajetoria', 'projetos', 'formacao', 'certificacoes', 'cursos', 'idiomas', 'empresas', 'contato']
 
 function App() {
   const { t } = useLocale()
@@ -39,6 +42,7 @@ function App() {
       <Header onNavigate={openSection} />
       <main>
         <Hero />
+
         <AccordionSection
           id="perfil"
           sectionClass="perfil"
@@ -50,6 +54,7 @@ function App() {
         >
           <Profile />
         </AccordionSection>
+
         <AccordionSection
           id="habilidades"
           sectionClass="habilidades"
@@ -61,6 +66,7 @@ function App() {
         >
           <Skills />
         </AccordionSection>
+
         <AccordionSection
           id="tecnologias"
           sectionClass="tecnologias"
@@ -72,6 +78,7 @@ function App() {
         >
           <Technologies />
         </AccordionSection>
+
         <AccordionSection
           id="trajetoria"
           sectionClass="trajetoria"
@@ -81,8 +88,23 @@ function App() {
           isOpen={activeSection === 'trajetoria'}
           onToggle={() => openSection('trajetoria')}
         >
+
           <Career />
         </AccordionSection>
+
+        <AccordionSection
+          id="projetos"
+          sectionClass="projetos"
+          title={t('sections.projetos')}
+          componentTag="ProjectsGit"
+          icon={<IconProjects />}
+          isOpen={activeSection === 'projetos'}
+          onToggle={() => openSection('projetos')}
+        >
+          <Projects />
+        </AccordionSection>
+
+        {/* FORMAÇÃO */}
         <AccordionSection
           id="formacao"
           sectionClass="formacao"
@@ -94,6 +116,33 @@ function App() {
         >
           <Formacao />
         </AccordionSection>
+
+        {/* CERTIFICAÇÕES */}
+        <AccordionSection
+          id="certificacoes"
+          sectionClass="formacao"
+          title="Certificações"
+          componentTag="Certificacoes"
+          icon={<IconCertifications />}
+          isOpen={activeSection === 'certificacoes'}
+          onToggle={() => openSection('certificacoes')}
+        >
+          <Certificacoes />
+        </AccordionSection>
+
+        {/* CURSOS */}
+        <AccordionSection
+          id="cursos"
+          sectionClass="formacao"
+          title="Cursos"
+          componentTag="Cursos"
+          icon={<IconCourses />}
+          isOpen={activeSection === 'cursos'}
+          onToggle={() => openSection('cursos')}
+        >
+          <Cursos />
+        </AccordionSection>
+
         <AccordionSection
           id="idiomas"
           sectionClass="idiomas"
@@ -105,6 +154,8 @@ function App() {
         >
           <Idiomas />
         </AccordionSection>
+
+         {/* Não vou usar no momento, ja adiconei nos projetos-trajetoria profissional 
         <AccordionSection
           id="empresas"
           sectionClass="empresas"
@@ -115,7 +166,8 @@ function App() {
           onToggle={() => openSection('empresas')}
         >
           <Companies />
-        </AccordionSection>
+        </AccordionSection> */}
+
         <AccordionSection
           id="contato"
           sectionClass="contato"
@@ -127,6 +179,7 @@ function App() {
         >
           <Contact />
         </AccordionSection>
+
       </main>
       <ContactBar />
     </>

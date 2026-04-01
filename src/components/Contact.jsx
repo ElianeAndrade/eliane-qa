@@ -24,7 +24,7 @@ function Contact() {
         aria-label={t('contact.whatsapp')}
       >
         <span className="contato-label mono">{t('contact.whatsapp')}</span>
-        <span className="contato-value">+55 98 99117-0011</span>
+        <span className="contato-value">+55 44 99894-5349</span>
       </a>
       <a
         href={LINKEDIN_URL}
@@ -34,7 +34,7 @@ function Contact() {
         aria-label={t('contact.linkedin')}
       >
         <span className="contato-label mono">{t('contact.linkedin')}</span>
-        <span className="contato-value">/igoralcoutinho</span>
+        <span className="contato-value">/eliane-maria-de-andrade</span>
       </a>
     </div>
   )

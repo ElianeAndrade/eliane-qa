@@ -3,8 +3,9 @@ import { useLocale } from '../contexts/LocaleContext'
 
 const options = [
   { value: 'ptBR', flag: '🇧🇷', labelKey: 'lang.ptBR' },
-  { value: 'en', flag: '🇺🇸', labelKey: 'lang.en' },
-  { value: 'es', flag: '🇪🇸', labelKey: 'lang.es' },
+  //quando for adicionar mais idiomas, descomentar os itens abaixo e preencher as traduções no arquivo de idiomas
+  /*{ value: 'en', flag: '🇺🇸', labelKey: 'lang.en' },
+  { value: 'es', flag: '🇪🇸', labelKey: 'lang.es' },*/
 ]
 
 function LanguageSelector() {
@@ -19,6 +20,8 @@ function LanguageSelector() {
     if (open) document.addEventListener('click', handleClickOutside)
     return () => document.removeEventListener('click', handleClickOutside)
   }, [open])
+
+    if (options.length <= 1) return null
 
   const current = options.find((o) => o.value === locale) || options[0]
 
