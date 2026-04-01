@@ -39,7 +39,7 @@ export const locales = {
       portuguese: 'Português',
       english: 'Inglês',
       spanish: 'Espanhol',
-      levelTechnical: 'Leitura técnica',
+      levelTechnical: 'Inglês instrumental',
     },
     perfil: {
         p1: 'QA Automation Engineer com experiência em testes manuais e automatizados em aplicações web, APIs e chatbots. Atuo com testes funcionais e não funcionais, regressivos e automação de testes utilizando Playwright, Cypress e Robot Framework.',

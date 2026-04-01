@@ -28,7 +28,7 @@ export const projects = [
     logo: 'logos/institutoAOCP.png',
     clients: 'Concursos públicos',
     role: 'Tester / Diagramador',
-    description: 'Atuação com testes e validações em sistemas de gestão de concursos públicos, garantindo qualidade das funcionalidades e processos. Também responsável pela revisão, formatação e organização de provas, além da validação de novas funcionalidades implementadas no sistema.',
+    description: 'Atuação com testes e validações em sistemas de gestão de concursos públicos, garantindo qualidade das funcionalidades e dos processos. Também responsável pela revisão, formatação e organização de provas, além da validação de novas funcionalidades implementadas no sistema.',
     tags: ['Testes Funcionais', 'Validação de Sistemas', 'Qualidade'],
     isRoot: true,
   },
