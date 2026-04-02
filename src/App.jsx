@@ -22,7 +22,7 @@ const SECTION_IDS = ['perfil', 'habilidades', 'tecnologias', 'trajetoria', 'proj
 
 function App() {
   const { t } = useLocale()
-  const [activeSection, setActiveSection] = useState('perfil')
+  const [activeSection, setActiveSection] = useState(null)
 
   const openSection = (id) => setActiveSection((current) => (current === id ? null : id))
 
