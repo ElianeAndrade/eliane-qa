@@ -16,7 +16,7 @@ export const locales = {
     hero: {
       title: 'Transformando',
       titleEm: 'Testes em estratégia',
-      desc: 'QA focada em testes manuais, testes automatizados, APIs e confiabilidade de sistemas.',
+      desc: 'Olá, sou Eliane, Analista de Qualidade com mais de 6 anos de experiência. Atuo com testes manuais, automatizados e APIs, sempre focada em garantir a qualidade e confiabilidade dos sistemas. Aqui você pode conhecer minha trajetória, evolução profissional e projetos práticos.',
     },
     sections: {
       perfil: 'Perfil',
