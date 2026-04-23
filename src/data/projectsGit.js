@@ -13,7 +13,9 @@ export const projectsGit = [
     name: 'Testes WEB com Playwright',
     description: 'Automação de testes end-to-end para aplicação web utilizando Playwright.',
     link: 'https://github.com/ElianeAndrade/Automation-Playwright',
+  },
 
+  {
     name: 'Criação de uma  API de gerenciamento de senhas',
     description: 'Desenvolvimento de uma API REST para gerenciamento de senhas utilizando Swagger e validação de endpoints.',
     link: 'https://github.com/ElianeAndrade/API-Swagger-Implementacao',
