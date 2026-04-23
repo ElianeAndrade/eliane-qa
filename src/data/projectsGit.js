@@ -1,5 +1,10 @@
 export const projectsGit = [
   {
+    name: 'Automação de um Pirâmide de Testes utilizando Playwright',
+    description: 'Automação de testes C# para testes unitarios e Playwright nos testes de integraçao e end-to-end, seguindo a piramide de testes.',
+    link: 'https://github.com/ElianeAndrade/QA-Teste-Tecnico_csharp_playwright',
+  },
+  {
     name: 'Automação de Testes com Cypress',
     description: 'Automação de testes end-to-end para aplicação web utilizando Cypress.',
     link: 'https://github.com/ElianeAndrade/Automation-Cypress',
