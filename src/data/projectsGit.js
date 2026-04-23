@@ -1,7 +1,7 @@
 export const projectsGit = [
   {
-    name: 'Automação de um Pirâmide de Testes utilizando Playwright',
-    description: 'Automação de testes C# para testes unitarios e Playwright nos testes de integraçao e end-to-end, seguindo a piramide de testes.',
+    name: 'Automação de uma Pirâmide de Testes utilizando Playwright',
+    description: 'Automação de testes utilizando C# e dependências para testes unitários e Playwright nos testes de integração e end-to-end, seguindo a pirâmide de testes.',
     link: 'https://github.com/ElianeAndrade/QA-Teste-Tecnico_csharp_playwright',
   },
   {
