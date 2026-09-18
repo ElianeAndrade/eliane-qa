@@ -25,7 +25,7 @@ const techList = [
   { id: 'notion', name: 'Notion', score: 7, years: 4, icon: `${DEVICON_CDN}/notion/notion-original.svg` },
 
   { id: 'k6', name: 'K6', score: 7, years: 3, icon: `${DEVICON_CDN}/k6/k6-original.svg` },
-  { id: 'burp', name: 'Burp Suite', score: 7, years: 3, icon: 'logos/burp.jpg', }
+  { id: 'burp', name: 'Burp Suite', score: 7, years: 3, icon: 'logos/burp-transparent.png' }
 ]
 
 export const technologies = techList
