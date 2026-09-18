@@ -16,7 +16,7 @@ export const locales = {
     hero: {
       title: 'Transformando',
       titleEm: 'Testes em estratégia',
-      desc: 'Olá, sou Eliane, Analista de Qualidade com mais de 6 anos de experiência. Atuo com testes manuais, automatizados e APIs, sempre focada em garantir a qualidade e confiabilidade dos sistemas. Aqui você pode conhecer minha trajetória, evolução profissional e projetos práticos.',
+      desc: 'Olá, sou Eliane, Analista de Qualidade com mais de 8 anos de experiência. Atuo com testes manuais, automatizados, segurança e APIs, sempre focada em garantir a qualidade e confiabilidade dos sistemas. Aqui você pode conhecer minha trajetória, evolução profissional e projetos práticos.',
     },
     sections: {
       perfil: 'Perfil',
@@ -43,7 +43,7 @@ export const locales = {
     },
     perfil: {
         p1: 'QA Automation Engineer com experiência em testes manuais e automatizados em aplicações web, APIs e chatbots. Atuo com testes funcionais e não funcionais, regressivos e automação de testes utilizando Playwright, Cypress e Robot Framework.',
-        p2: 'Possuo experiência em testes de API, validação de integrações, análise de protótipos no Figma, documentações claras e objetivas de bug e validação em banco de dados. Também atuo com testes de performance utilizando k6, execução de pipelines em Azure DevOps e monitoria de fluxos para garantir a estabilidade e confiabilidade das aplicações. Trabalho em ambientes ágeis, colaborando com times de desenvolvimento para reduzir falhas em produção e evoluir a qualidade do software.',
+        p2: 'Possuo experiência em testes de API, validação de integrações, análise de protótipos no Figma, documentações claras e objetivas de bug e validação em banco de dados. Também atuo com testes de performance utilizando k6, testes de segurança utilizando Burp Suite, execução de pipelines em Azure DevOps e monitoria de fluxos para garantir a estabilidade e confiabilidade das aplicações. Trabalho em ambientes ágeis, colaborando com times de desenvolvimento para reduzir falhas em produção e evoluir a qualidade do software, com vasta experiência em diferentes projetos e contextos.',
     },
     tecnologias: {
       desc: 'Nível de domínio (0–10) e tempo de experiência com cada tecnologia.',

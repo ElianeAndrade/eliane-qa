@@ -14,7 +14,13 @@ export const projectsGit = [
     description: 'Automação de testes end-to-end para aplicação web utilizando Playwright.',
     link: 'https://github.com/ElianeAndrade/Automation-Playwright',
   },
-
+  
+  {
+    name: 'Criação de um BOT financeiro',
+    description: 'Desenvolvimento de um BOT financeiro para automação de tarefas relacionadas a finanças. Ferramenta de conversação: Telegram',
+    link: 'https://github.com/ElianeAndrade/financas_bot',
+  },
+  
   {
     name: 'Criação de uma  API de gerenciamento de senhas',
     description: 'Desenvolvimento de uma API REST para gerenciamento de senhas utilizando Swagger e validação de endpoints.',
